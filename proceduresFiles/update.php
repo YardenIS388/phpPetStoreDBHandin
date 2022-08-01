@@ -8,7 +8,7 @@
     $result = mysqli_query($connection , $query);
     $row = mysqli_fetch_assoc($result);
    if(!$result){
-    die(" (Procedure Failure) updateOrderToComplete procedure failed  " .$connection->connect_error );
+    die(" (Procedure Failure) updateOrderToComplete procedure failed make sure input exisitd in table " .$connection->connect_error );
    }
 
 ?>
